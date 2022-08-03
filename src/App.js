@@ -1,9 +1,15 @@
-function App() {
+import Layout from "./components/Layout";
+import RoutePage from "./Route";
+import { BrowserRouter } from "react-router-dom";
+
+const App = () => {
   return (
-    <div className="App">
-      <h1 className="text-lg bg-zinc-400"> Hello </h1>
-    </div>
+    <BrowserRouter>
+      <Layout>
+        <RoutePage />
+      </Layout>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
