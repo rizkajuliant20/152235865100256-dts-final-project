@@ -2,7 +2,7 @@
 
 Hacker News app
 
-- [Demo Here](https://152235865101254-dts-final-project.netlify.app/)
+- [Demo Here](https://152235865100256-dts-final-project.netlify.app/)
 
 ## Description
 
